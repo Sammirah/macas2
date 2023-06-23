@@ -26,7 +26,7 @@ recognition.onresult = function(event) {
  
      document.getElementById("status").innerHTML = "A fala foi reconhecida: " + content;  
 
-  to_number = Number(content);
+  toNumber = Number(content);
   if(Number.isInteger(to_number)) {
     document.getElementById("status").innerHTML = "A maçã começou a ser desenhada";
     drawApple = "set";
